@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color: rgb(193, 191, 191);
+}
+
+nav {
+    background-color: #131921;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 900;
+}
+
+.location:hover {
+    border: 1px solid #fff;
+}
+
+.location p {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.location h1 {
+    font-size: 13px;
+
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-category {
+
+    background-color: rgb(223, 222, 222);
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-category p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #0a0a0a;
+
+}
+
+.search-input {
+
+    padding: 8px 400px 3px 8px;
+}
+
+input ::placeholder {
+    font-weight: 100;
+}
+
+.search-img {
+    background-color: #febd69;
+    height: 33px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+}
+
+.country:hover {
+    border: 1px solid #fff;
+}
+
+.country h4 {
+    color: #fff;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.flag-img {
+    width: 22px;
+}
+
+.signin,
+p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.signin:hover {
+    border: 1px solid #fff;
+}
+
+.signin h4 {
+    font-size: 13px;
+}
+
+.products h4 {
+    color: #fff;
+    font-weight: 500px;
+    font-size: 13px;
+}
+
+.products:hover {
+    border: 1px solid #fff;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.card:hover {
+    border: 1px solid #fff;
+}
+
+.card-icon {
+    width: 30px;
+}
+
+.sub-nav {
+    background-color: #203040;
+    display: flex;
+    color: #fff;
+    padding: 8px;
+    width: 1379px;
+
+}
+
+h5 {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 100;
+}
+
+.sub-nav h5:hover {
+    border: 1px solid #fff;
+}
+
+.inside-logo {
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+.logo-content {
+    display: flex;
+    padding-left: 15px;
+}
+
+.logo-content h4 {
+    font-weight: 100;
+    padding-left: 5px;
+}
+
+.logo-content:hover {
+    border: 1px solid #fff;
+}
+
+.header-img {
+    position: relative;
+    display: flex;
+
+
+}
+
+.header-images {
+    width: 100%;
+
+}
+
+
+.pre-btn {
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 90px;
+    color: #0a0a0a;
+   
+
+}
+
+.next-btn {
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 90px;
+    color: #0a0a0a;
+    font-weight: 100;
+
+}
+
+.subnav-img {
+    font-weight: 800;
+}
+
+.inside-img {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.inside-img1 {
+    position: static;
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.bike-img {
+
+    margin-left: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 50px 190px;
+    padding-bottom: 10px;
+}
