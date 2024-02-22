@@ -101,8 +101,7 @@ input ::placeholder {
     width: 22px;
 }
 
-.signin,
-p {
+.signin,p {
     color: #fff;
     font-size: 10px;
     font-weight: 100;
